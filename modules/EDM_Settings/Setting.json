@@ -1,0 +1,33 @@
+{
+    "exchanges": [
+        {"name": "binance", "ccxt_object": "binance", "limit_size_request": 1000},
+        {"name": "binanceusdm", "ccxt_object": "binanceusdm", "limit_size_request": 1000},
+        {"name": "bitget", "ccxt_object": "bitget", "limit_size_request": 100}
+    ],
+
+    "timeframes": [
+        {"name": "5m", "timedelta": {"unit": "minutes", "value": 5}, "interval_ms": 300000},
+        {"name": "15m", "timedelta": {"unit": "minutes", "value": 15}, "interval_ms": 900000},
+        {"name": "30m", "timedelta": {"unit": "minutes", "value": 30}, "interval_ms": 1800000},
+        {"name": "1h", "timedelta": {"unit": "hours", "value": 1}, "interval_ms": 3600000},
+        {"name": "2h", "timedelta": {"unit": "hours", "value": 2}, "interval_ms": 7200000},
+        {"name": "4h", "timedelta": {"unit": "hours", "value": 4}, "interval_ms": 14400000},
+        {"name": "12h", "timedelta": {"unit": "hours", "value": 12}, "interval_ms": 43200000},
+        {"name": "1d", "timedelta": {"unit": "days", "value": 1}, "interval_ms": 86400000},
+        {"name": "1w", "timedelta": {"unit": "weeks", "value": 1}, "interval_ms": 604800000},
+        {"name": "1M", "timedelta": {"unit": "days", "value": 30}, "interval_ms": 2629746000}
+    ],
+
+    "coins": [
+        {"pair": "BTC/USDT"},
+        {"pair": "ETH/USDT"},
+        {"pair": "ADA/USDT"},
+        {"pair": "SOL/USDT"},    
+        {"pair": "LINK/USDT"},    
+        {"pair": "GRT/USDT"},
+        {"pair": "SHIB/USDT"},
+        {"pair": "XRP/USDT"},
+        {"pair": "MANA/USDT"},
+        {"pair": "ENJ/USDT"}              
+    ]
+}
